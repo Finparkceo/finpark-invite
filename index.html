@@ -1,0 +1,310 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Вечер о самом важном · Finpark</title>
+<meta name="description" content="15 января 2027, 14:00–17:00, Spaces, Астана. Новогодняя встреча для постоянных клиентов Finpark.">
+<meta property="og:title" content="Вечер о самом важном · Finpark">
+<meta property="og:description" content="15 января 2027 · 14:00–17:00 · Spaces, Астана, мкр. Самал, 11. Подтвердите участие.">
+<meta property="og:image" content="https://finparkceo.github.io/finpark-invite/img/hero.jpg">
+<meta name="robots" content="noindex">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;1,500;1,600&display=swap" rel="stylesheet">
+<style>
+:root{ --blue:#2B35C8; --navy:#121845; --cream:#F4EFE8; --gold:#E3BC62; --gold2:#F6DC9A; --ink:#1B1F3B; --muted:#565B78; --line:#E6DccB; }
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--cream);font-family:Inter,system-ui,sans-serif;color:var(--ink);-webkit-font-smoothing:antialiased}
+.wrap{max-width:820px;margin:0 auto;padding-left:max(20px,env(safe-area-inset-left));padding-right:max(20px,env(safe-area-inset-right))}
+img{max-width:100%;display:block}
+
+/* HERO */
+.hero{position:relative;color:#fff;overflow:hidden;
+  background:linear-gradient(180deg,rgba(18,24,69,.55) 0%,rgba(18,24,69,.8) 50%,var(--navy) 100%),url(img/hero.jpg) center 30%/cover}
+.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(100deg,rgba(43,53,200,.85),rgba(43,53,200,.3) 60%,rgba(43,53,200,0));mix-blend-mode:multiply;pointer-events:none}
+.hero .wrap{position:relative;z-index:2;padding-top:44px;padding-bottom:44px}
+.orn{position:absolute;top:0;right:4%;width:min(300px,42vw);z-index:3;pointer-events:none}
+.orn .b{transform-origin:top center;animation:sway 5s ease-in-out infinite}
+.orn .b2{animation-duration:6.5s;animation-delay:-2s}.orn .b3{animation-duration:5.8s;animation-delay:-1s}
+@keyframes sway{0%,100%{transform:rotate(-2.5deg)}50%{transform:rotate(2.5deg)}}
+@media (prefers-reduced-motion:reduce){.orn .b{animation:none}}
+.logo{display:flex;align-items:center;gap:10px;font-weight:600;font-size:24px;letter-spacing:-.5px}
+.logo b{font-weight:800;font-size:28px}
+.tag{display:inline-block;margin-top:72px;background:var(--cream);color:var(--blue);font-weight:600;font-size:13px;padding:8px 16px;border-radius:30px}
+h1{font-size:clamp(34px,7vw,54px);line-height:1.04;font-weight:800;letter-spacing:-1.4px;margin-top:20px;text-wrap:balance}
+h1 em{font-family:"Playfair Display",serif;font-style:italic;font-weight:600;color:var(--gold2);letter-spacing:0}
+.lead{font-size:17px;line-height:1.55;margin-top:20px;max-width:600px;color:rgba(255,255,255,.92)}
+.meta{display:grid;grid-template-columns:1fr 1fr 1.3fr;gap:10px;margin-top:30px}
+.meta div{background:rgba(255,255,255,.1);backdrop-filter:blur(6px);-webkit-backdrop-filter:blur(6px);border:1px solid rgba(255,255,255,.25);border-radius:14px;padding:12px 15px}
+.meta small{display:block;font-size:11px;text-transform:uppercase;letter-spacing:1.3px;color:var(--gold2);margin-bottom:5px;font-weight:600}
+.meta span{font-size:15px;font-weight:600;line-height:1.35}
+.cta{display:inline-flex;align-items:center;gap:10px;margin-top:28px;background:var(--gold2);color:var(--navy);font-weight:700;font-size:16px;padding:15px 26px;border-radius:40px;text-decoration:none;box-shadow:0 8px 24px rgba(227,188,98,.35);transition:transform .15s}
+.cta:hover{transform:translateY(-2px)}
+.cta svg{width:18px;height:18px}
+
+/* SECTIONS */
+section.blk{padding-top:52px}
+h2{font-size:12px;text-transform:uppercase;letter-spacing:1.8px;color:var(--blue);font-weight:700;margin-bottom:18px;display:flex;align-items:center;gap:10px}
+h2:after{content:"";flex:1;height:1px;background:linear-gradient(90deg,var(--gold),transparent)}
+.letter{display:grid;grid-template-columns:200px 1fr;gap:36px;align-items:center}
+.ph{position:relative}
+.ph img{width:200px;height:252px;object-fit:cover;object-position:center 20%;border-radius:100px 100px 14px 14px}
+.ph:before{content:"";position:absolute;inset:-6px;border:1.5px solid var(--gold);border-radius:106px 106px 18px 18px}
+.txt{font-size:16px;line-height:1.65;min-width:0}
+.txt p+p{margin-top:12px}
+.txt strong{color:var(--blue)}
+.sign{margin-top:16px;font-family:"Playfair Display",serif;font-style:italic;font-size:21px;color:var(--navy)}
+.sign small{display:block;font-family:Inter;font-style:normal;font-size:13px;color:var(--muted);margin-top:2px}
+
+.prog{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.card{background:#fff;border-radius:18px;overflow:hidden;box-shadow:0 6px 20px rgba(18,24,69,.06)}
+.card .im{height:150px;background-size:cover;background-position:center;position:relative}
+.card .im:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,rgba(43,53,200,0) 40%,rgba(43,53,200,.35))}
+.card .n{position:absolute;left:12px;bottom:10px;z-index:2;font-size:12px;font-weight:700;color:var(--navy);background:var(--gold2);border-radius:20px;padding:3px 10px}
+.card .c{padding:14px 16px 18px}
+.card h3{font-size:17px;line-height:1.25;margin-bottom:6px}
+.card p{font-size:14px;line-height:1.5;color:var(--muted)}
+.im.party{background:radial-gradient(circle at 70% 30%,#3a45d6,var(--navy))}
+.im.party svg{position:absolute;inset:0;width:100%;height:100%;z-index:1}
+.conf{margin-top:12px;background:var(--navy);color:#fff;border-radius:18px;padding:16px 20px;display:flex;gap:16px;align-items:center}
+.conf svg{flex:none}
+.conf p{font-size:14px;line-height:1.55}
+.conf b{color:var(--gold2)}
+
+.team{background:#fff;border-radius:20px;padding:18px 20px;display:flex;align-items:center;gap:18px}
+.faces{display:flex;flex:none}
+.faces img{width:54px;height:54px;border-radius:50%;object-fit:cover;object-position:center 15%;border:3px solid #fff;margin-left:-14px;box-shadow:0 2px 6px rgba(0,0,0,.12)}
+.faces img:first-child{margin-left:0}
+.team p{font-size:15px;line-height:1.5;min-width:0}
+.team b{color:var(--blue)}
+
+.res{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.res div{background:linear-gradient(160deg,#fff,#FBF7F0);border:1px solid var(--line);border-radius:16px;padding:15px 16px;display:flex;gap:12px;align-items:flex-start}
+.res i{flex:none;width:30px;height:30px;border-radius:50%;background:var(--blue);color:#fff;font-style:normal;display:flex;align-items:center;justify-content:center;font-size:14px;font-weight:700}
+.res p{font-size:14.5px;line-height:1.45}
+
+.band{margin-top:56px;position:relative;background:url(img/handshake.jpg) center 40%/cover}
+.band:before{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(18,24,69,.95),rgba(18,24,69,.85) 50%,rgba(43,53,200,.45))}
+.bq{position:relative;color:#fff;padding-top:48px;padding-bottom:44px}
+.bq .qm{display:block;margin-bottom:18px}
+.q1{font-family:"Playfair Display",serif;font-style:italic;font-size:clamp(22px,4vw,28px);line-height:1.3;max-width:640px}
+.q1 em{color:var(--gold2)}
+.q2{margin-top:18px;font-size:16px;line-height:1.55;font-weight:500;color:rgba(255,255,255,.9);padding-left:14px;border-left:2px solid var(--gold);max-width:600px}
+.qs{display:block;margin-top:20px;font-size:11px;letter-spacing:2px;text-transform:uppercase;color:var(--gold2);font-weight:600}
+
+/* RSVP */
+#rsvp{padding-top:56px;padding-bottom:56px}
+.form{background:#fff;border-radius:24px;padding:32px;box-shadow:0 12px 40px rgba(18,24,69,.08);position:relative;overflow:hidden}
+.form:before{content:"";position:absolute;top:0;left:0;right:0;height:5px;background:linear-gradient(90deg,var(--blue),var(--gold))}
+.form h3{font-size:clamp(24px,4.5vw,30px);font-weight:800;letter-spacing:-.6px;line-height:1.15}
+.form h3 em{font-family:"Playfair Display",serif;font-style:italic;font-weight:600;color:var(--blue);letter-spacing:0}
+.form .sub{color:var(--muted);font-size:15px;margin-top:8px;line-height:1.5}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-top:24px}
+.f{display:flex;flex-direction:column;gap:7px;min-width:0}
+.f.full{grid-column:1/-1}
+label.l{font-size:13px;font-weight:600;color:var(--ink)}
+label.l span{color:var(--muted);font-weight:400}
+input[type=text],input[type=tel],textarea{font:inherit;font-size:16px;color:var(--ink);background:#FAF8F4;border:1.5px solid var(--line);border-radius:12px;padding:13px 14px;width:100%;transition:border-color .15s,background .15s}
+textarea{min-height:96px;resize:vertical}
+input:focus,textarea:focus{outline:none;border-color:var(--blue);background:#fff}
+.f.err input,.f.err textarea{border-color:#C8402B}
+.f .msg{font-size:12.5px;color:#C8402B;display:none}
+.f.err .msg{display:block}
+.choice{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.choice input{position:absolute;opacity:0;pointer-events:none}
+.choice label{display:flex;align-items:center;gap:10px;border:1.5px solid var(--line);background:#FAF8F4;border-radius:14px;padding:14px 16px;font-weight:600;font-size:15px;cursor:pointer;transition:all .15s}
+.choice label i{width:20px;height:20px;border-radius:50%;border:2px solid #B9B3A6;flex:none;position:relative}
+.choice input:checked+label{border-color:var(--blue);background:#EEF0FF;color:var(--blue)}
+.choice input:checked+label i{border-color:var(--blue)}
+.choice input:checked+label i:after{content:"";position:absolute;inset:3px;border-radius:50%;background:var(--blue)}
+.choice input:focus-visible+label{outline:2px solid var(--blue);outline-offset:2px}
+.send{margin-top:24px;display:flex;align-items:center;gap:16px;flex-wrap:wrap}
+button{font:inherit;font-weight:700;font-size:16px;background:var(--blue);color:#fff;border:0;border-radius:40px;padding:16px 30px;cursor:pointer;box-shadow:0 8px 20px rgba(43,53,200,.3);transition:transform .15s,opacity .15s}
+button:hover{transform:translateY(-2px)}
+button:disabled{opacity:.6;cursor:wait;transform:none}
+.priv{font-size:12.5px;color:var(--muted);line-height:1.4;flex:1;min-width:200px}
+.done{display:none;text-align:center;padding:20px 0}
+.done svg{margin:0 auto 14px}
+.done h3{margin-bottom:8px}
+.done p{color:var(--muted);font-size:15.5px;line-height:1.55;max-width:440px;margin:0 auto}
+.form.sent .fbody{display:none}
+.form.sent .done{display:block}
+.failmsg{display:none;margin-top:14px;color:#C8402B;font-size:14px}
+
+footer{background:var(--navy);color:rgba(255,255,255,.8);padding:30px 0 calc(30px + env(safe-area-inset-bottom))}
+footer .wrap{display:flex;justify-content:space-between;gap:20px;flex-wrap:wrap;font-size:14px;line-height:1.6}
+footer b{color:#fff}
+footer a{color:var(--gold2);text-decoration:none}
+
+@media (max-width:640px){
+  .hero .wrap{padding-top:28px;padding-bottom:36px}
+  .tag{margin-top:96px;font-size:12px}
+  .meta{grid-template-columns:1fr 1fr}
+  .meta div:last-child{grid-column:1/-1}
+  .letter{grid-template-columns:1fr;gap:22px;justify-items:center}
+  .txt{text-align:left}
+  .prog,.res,.grid,.choice{grid-template-columns:1fr}
+  .team{flex-direction:column;align-items:flex-start}
+  .form{padding:24px 20px}
+  section.blk{padding-top:42px}
+  button{width:100%}
+}
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <svg class="orn" viewBox="0 0 300 270" fill="none" aria-hidden="true">
+    <defs>
+      <radialGradient id="g1" cx="35%" cy="30%" r="70%"><stop offset="0" stop-color="#FFF3CF"/><stop offset=".45" stop-color="#E3BC62"/><stop offset="1" stop-color="#9C7424"/></radialGradient>
+      <radialGradient id="g2" cx="35%" cy="30%" r="70%"><stop offset="0" stop-color="#ffffff"/><stop offset=".5" stop-color="#C9CDF8"/><stop offset="1" stop-color="#6E77E8"/></radialGradient>
+    </defs>
+    <g class="b"><line x1="60" y1="0" x2="60" y2="120" stroke="#E3BC62" stroke-width="1.2"/><rect x="53" y="118" width="14" height="9" rx="2" fill="#C9A24B"/><circle cx="60" cy="155" r="30" fill="url(#g1)"/><path d="M36 150 Q60 162 84 150" stroke="#fff" stroke-opacity=".5" stroke-width="1.5"/></g>
+    <g class="b b2"><line x1="150" y1="0" x2="150" y2="60" stroke="#E3BC62" stroke-width="1.2"/><rect x="144" y="58" width="12" height="8" rx="2" fill="#C9A24B"/><circle cx="150" cy="87" r="22" fill="url(#g2)"/></g>
+    <g class="b b3"><line x1="235" y1="0" x2="235" y2="150" stroke="#E3BC62" stroke-width="1.2"/><rect x="227" y="148" width="16" height="10" rx="2" fill="#C9A24B"/><circle cx="235" cy="196" r="38" fill="url(#g1)"/><text x="235" y="210" text-anchor="middle" font-family="Inter" font-weight="800" font-size="40" fill="#121845" fill-opacity=".85">%</text></g>
+    <g fill="#F6DC9A"><path d="M110 150l3 9 9 3-9 3-3 9-3-9-9-3 9-3z"/><path d="M190 40l2 6 6 2-6 2-2 6-2-6-6-2 6-2z"/><path d="M280 90l2 6 6 2-6 2-2 6-2-6-6-2 6-2z" opacity=".7"/><path d="M20 60l2 5 5 2-5 2-2 5-2-5-5-2 5-2z" opacity=".6"/></g>
+  </svg>
+  <div class="wrap">
+    <div class="logo"><b>%</b> Finpark</div>
+    <div class="tag">Новогоднее приглашение · только для постоянных клиентов Finpark</div>
+    <h1>Вместо термоса —<br>разговор о <em>самом важном</em></h1>
+    <p class="lead">Мы решили не дарить вам ещё одну кружку с логотипом. Мы дарим вам день о ваших деньгах: как работает прибыль в бизнесе, как растёт ваш личный капитал и сколько дивидендов вы хотите получать в 2027 году.</p>
+    <div class="meta">
+      <div><small>Дата</small><span>15 января 2027<br>пятница</span></div>
+      <div><small>Время</small><span>14:00 – 17:00</span></div>
+      <div><small>Место</small><span>Spaces<br>Астана, мкр. Самал, 11</span></div>
+    </div>
+    <a class="cta" href="#rsvp">Подтвердить участие <svg viewBox="0 0 20 20" fill="none"><path d="M10 4v12M4 10l6 6 6-6" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+  </div>
+</header>
+
+<main>
+<section class="blk"><div class="wrap">
+  <div class="letter">
+    <div class="ph"><img src="img/founder.jpg" alt="Жулдыз Алибекова, основатель Finpark"></div>
+    <div class="txt">
+      <p>Дорогой партнёр!</p>
+      <p>Весь год мы вместе с вами считали выручку, расходы и прибыль компании. Но за каждым бизнесом стоит человек — со своими целями, семьёй и мечтами. <strong>Бизнес должен работать на вас, а не только вы на бизнес.</strong></p>
+      <p>Поэтому этот день мы посвятим вам: соединим личные финансы и финансы компании, чтобы ваш финдиректор Finpark стал вашим союзником — в регулярных дивидендах, в контроле чистой прибыли и в работе с командой.</p>
+      <div class="sign">Жулдыз Алибекова<small>основатель Finpark</small></div>
+    </div>
+  </div>
+</div></section>
+
+<section class="blk"><div class="wrap">
+  <h2>Программа</h2>
+  <div class="prog">
+    <div class="card"><div class="im" style="background-image:url(img/numbers.jpg)"><span class="n">01</span></div><div class="c"><h3>Как работают деньги в вашем бизнесе</h3><p>Ваш бизнес приносит 30% годовых, а депозит — 15%. Кто выигрывает? Посчитаем доходность ваших денег и сколько прибыли можно забирать без вреда компании.</p></div></div>
+    <div class="card"><div class="im" style="background-image:url(img/plan.jpg)"><span class="n">02</span></div><div class="c"><h3>Ваш личный капитал</h3><p>Считаем ваши цели, капитал и план дивидендов на 2027 год. Рядом — руководители ваших проектов.</p></div></div>
+    <div class="card"><div class="im" style="background-image:url(img/meeting.jpg)"><span class="n">03</span></div><div class="c"><h3>Нетворкинг с Тельманом</h3><p>Главный нетворкер страны познакомит вас с предпринимателями вашего уровня — с похожим оборотом и опытом.</p></div></div>
+    <div class="card"><div class="im party"><svg viewBox="0 0 300 130" fill="none" aria-hidden="true">
+      <g stroke="#F6DC9A" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M118 28h26l-3 30a10 10 0 0 1-20 0z" fill="#E3BC62" fill-opacity=".25"/><path d="M131 68v30M121 98h20"/>
+        <path d="M156 28h26l-3 30a10 10 0 0 1-20 0z" fill="#E3BC62" fill-opacity=".25" transform="rotate(14 169 60)"/><path d="M175 70l-7 29M160 97l19 5"/>
+      </g>
+      <g fill="#F6DC9A"><circle cx="128" cy="44" r="1.8"/><circle cx="136" cy="50" r="1.4"/><circle cx="170" cy="46" r="1.6"/><path d="M150 8l2 6 6 2-6 2-2 6-2-6-6-2 6-2z"/><path d="M95 40l1.5 4 4 1.5-4 1.5-1.5 4-1.5-4-4-1.5 4-1.5z"/><path d="M205 30l1.5 4 4 1.5-4 1.5-1.5 4-1.5-4-4-1.5 4-1.5z"/></g>
+      <g fill="#fff" opacity=".35"><circle cx="40" cy="30" r="2"/><circle cx="70" cy="90" r="1.5"/><circle cx="250" cy="40" r="2"/><circle cx="265" cy="100" r="1.5"/><circle cx="230" cy="80" r="1.2"/></g>
+    </svg><span class="n">04</span></div><div class="c"><h3>Фуршет и новогоднее настроение</h3><p>Живое общение, новые знакомства и встреча Нового года в кругу единомышленников.</p></div></div>
+  </div>
+  <div class="conf">
+    <svg width="40" height="40" viewBox="0 0 40 40" fill="none" aria-hidden="true"><rect x="8" y="17" width="24" height="18" rx="4" fill="#E3BC62"/><path d="M13 17v-4a7 7 0 0 1 14 0v4" stroke="#E3BC62" stroke-width="3"/><circle cx="20" cy="25" r="2.5" fill="#121845"/><path d="M20 27v3" stroke="#121845" stroke-width="2"/></svg>
+    <p><b>Ваши цифры — только ваши.</b> Личные финансы вы считаете сами и никому не показываете. Никаких выступлений с вашими данными — всё строго конфиденциально.</p>
+  </div>
+</div></section>
+
+<section class="blk"><div class="wrap">
+  <h2>Рядом с вами</h2>
+  <div class="team">
+    <div class="faces"><img src="img/t4.jpg" alt=""><img src="img/t1.jpg" alt=""><img src="img/t6.jpg" alt=""><img src="img/t2.jpg" alt=""><img src="img/t3.jpg" alt=""><img src="img/t7.jpg" alt=""></div>
+    <p><b>Ваши финдиректора и руководители проектов Finpark</b> будут в зале весь день. Подскажут, помогут посчитать и ответят на вопросы — лично вам.</p>
+  </div>
+</div></section>
+
+<section class="blk"><div class="wrap">
+  <h2>С чем вы уйдёте</h2>
+  <div class="res">
+    <div><i>1</i><p>Ясная картина ваших личных финансов и целей</p></div>
+    <div><i>2</i><p>Свой план дивидендов на 2027 год — сколько и когда вы хотите получать</p></div>
+    <div><i>3</i><p>Финдиректор свяжет этот план с прибылью и бюджетом компании на 2027 год</p></div>
+    <div><i>4</i><p>Новые знакомства с сильными предпринимателями вашего уровня</p></div>
+  </div>
+</div></section>
+
+<div class="band"><div class="wrap bq">
+  <svg class="qm" viewBox="0 0 40 32" width="34" height="27" aria-hidden="true"><path fill="#E3BC62" d="M0 32V19C0 8 6 2 16 0l2 4c-6 2-9 6-9 11h7v17zm22 0V19c0-11 6-17 16-19l2 4c-6 2-9 6-9 11h7v17z"/></svg>
+  <p class="q1">Мы хотим знать не только цифры вашего бизнеса, но&nbsp;и&nbsp;то, <em>ради чего вы его строите.</em></p>
+  <p class="q2">И помочь вам туда дойти: команда работает в&nbsp;рамках бюджета, отдел продаж идёт по&nbsp;плану продаж, а&nbsp;прибыль и&nbsp;дивиденды — под строгим контролем.</p>
+  <span class="qs">Команда Finpark</span>
+</div></div>
+
+<section id="rsvp"><div class="wrap">
+  <form class="form" id="f" novalidate>
+    <div class="fbody">
+      <h3>Подтвердите <em>участие</em></h3>
+      <p class="sub">До 25 декабря 2026. Займёт меньше минуты — и мы подготовим место лично для вас.</p>
+      <div class="grid">
+        <div class="f" data-req><label class="l" for="name">Имя и фамилия</label><input id="name" name="entry.711918185" type="text" autocomplete="name"><span class="msg">Напишите, пожалуйста, имя</span></div>
+        <div class="f" data-req><label class="l" for="company">Компания</label><input id="company" name="entry.1356744916" type="text" autocomplete="organization"><span class="msg">Напишите название компании</span></div>
+        <div class="f" data-req><label class="l" for="phone">Телефон (WhatsApp)</label><input id="phone" name="entry.1736499084" type="tel" autocomplete="tel" placeholder="+7 ___ ___ __ __"><span class="msg">Оставьте номер, чтобы мы могли связаться</span></div>
+        <div class="f"><label class="l" for="fd">Кто ваш финдиректор в Finpark? <span>— необязательно</span></label><input id="fd" name="entry.953698496" type="text"></div>
+        <div class="f full" data-req data-radio>
+          <span class="l">Вы придёте?</span>
+          <div class="choice">
+            <input type="radio" id="yes" name="entry.239072809" value="Да, приду"><label for="yes"><i></i>Да, приду</label>
+            <input type="radio" id="no" name="entry.239072809" value="К сожалению, не смогу"><label for="no"><i></i>К сожалению, не смогу</label>
+          </div>
+          <span class="msg">Выберите один из вариантов</span>
+        </div>
+        <div class="f full"><label class="l" for="q">Какой вопрос о деньгах для вас сейчас самый важный? <span>— необязательно</span></label><textarea id="q" name="entry.110538378"></textarea></div>
+      </div>
+      <div class="send">
+        <button type="submit" id="btn">Отправить ответ</button>
+        <p class="priv">Ваши ответы увидит только команда Finpark.</p>
+      </div>
+      <p class="failmsg" id="fail">Не получилось отправить. Проверьте интернет и попробуйте ещё раз — или напишите нам в WhatsApp: <a href="https://wa.me/77775332703" target="_blank" rel="noopener">+7 777 533 27 03</a>.</p>
+    </div>
+    <div class="done" aria-live="polite">
+      <svg width="64" height="64" viewBox="0 0 64 64" fill="none" aria-hidden="true"><circle cx="32" cy="32" r="30" fill="#2B35C8"/><path d="M20 33l8 8 16-17" stroke="#F6DC9A" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      <h3 id="doneTitle">Спасибо! Ждём вас 15 января</h3>
+      <p id="doneText">14:00, Spaces, Астана, мкр. Самал, 11. Накануне ваш финдиректор напомнит о встрече.</p>
+    </div>
+  </form>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+  <div><b>Finpark</b> — финансовый директор на аутсорсе<br><a href="https://finpark.kz" target="_blank" rel="noopener">finpark.kz</a></div>
+  <div>Вопросы по WhatsApp<br><a href="https://wa.me/77775332703" target="_blank" rel="noopener"><b>+7 777 533 27 03</b></a></div>
+</div></footer>
+
+<script>
+(function(){
+  var ACTION='https://docs.google.com/forms/d/e/1FAIpQLSdkx5GnqoTLf5OhLewnXWXWtMSed95Ic4JRX__KHixXFgMi8A/formResponse';
+  var f=document.getElementById('f'),btn=document.getElementById('btn'),fail=document.getElementById('fail');
+  f.addEventListener('input',function(e){var w=e.target.closest('.f');if(w)w.classList.remove('err');});
+  f.addEventListener('change',function(e){var w=e.target.closest('.f');if(w)w.classList.remove('err');});
+  f.addEventListener('submit',function(e){
+    e.preventDefault();fail.style.display='none';
+    var ok=true,first=null;
+    f.querySelectorAll('[data-req]').forEach(function(w){
+      var bad=w.hasAttribute('data-radio')?!w.querySelector('input:checked'):!w.querySelector('input').value.trim();
+      w.classList.toggle('err',bad);if(bad){ok=false;first=first||w;}
+    });
+    if(!ok){first.scrollIntoView({behavior:'smooth',block:'center'});return;}
+    var data=new URLSearchParams(new FormData(f));
+    btn.disabled=true;btn.textContent='Отправляем…';
+    fetch(ACTION,{method:'POST',mode:'no-cors',body:data}).then(function(){
+      if(f.querySelector('#no').checked){
+        document.getElementById('doneTitle').textContent='Спасибо, что ответили!';
+        document.getElementById('doneText').textContent='Жаль, что не получится. Ваш финдиректор свяжется с вами и поможет составить план дивидендов на 2027 год лично.';
+      }
+      f.classList.add('sent');f.scrollIntoView({behavior:'smooth',block:'center'});
+    }).catch(function(){
+      btn.disabled=false;btn.textContent='Отправить ответ';fail.style.display='block';
+    });
+  });
+})();
+</script>
+</body>
+</html>
