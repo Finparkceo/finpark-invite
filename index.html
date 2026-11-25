@@ -152,6 +152,13 @@ footer a{color:var(--gold2);text-decoration:none}
 }
 .gift{display:flex;align-items:center;gap:12px;margin-top:12px;background:linear-gradient(90deg,#F6DC9A,#E3BC62);color:#121845;border-radius:14px;padding:12px 16px;font-size:15px;line-height:1.4;box-shadow:0 6px 20px rgba(227,188,98,.3)}
 .gift svg{flex:none}.gift b{font-weight:800}
+.guests{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
+.g{background:#fff;border-radius:16px;padding:12px 14px;display:flex;gap:12px;align-items:center;min-width:0}
+.g img{width:52px;height:52px;border-radius:50%;object-fit:cover;flex:none;border:2px solid #E3BC62}
+.g div{min-width:0}.g b{display:block;font-size:14px;line-height:1.25;color:#1B1F3B}
+.g span{display:block;font-size:12px;line-height:1.35;color:#565B78;margin-top:2px}
+.gnote{margin-top:10px;font-size:13px;color:#565B78}
+@media (max-width:640px){.guests{grid-template-columns:1fr}}
 </style>
 </head>
 <body>
@@ -170,7 +177,7 @@ footer a{color:var(--gold2);text-decoration:none}
   <div class="wrap">
     <div class="logo"><b>%</b> Finpark</div>
     <div class="tag">Новогоднее приглашение · только для постоянных клиентов Finpark</div>
-    <h1>Вместо термоса —<br>разговор о <em>самом важном</em></h1>
+    <h1>Вместо сувенира —<br>разговор о <em>самом важном</em></h1>
     <p class="lead">Мы решили не дарить вам ещё одну кружку с логотипом. Мы дарим вам день о ваших деньгах: как работает прибыль в бизнесе, как растёт ваш личный капитал и сколько дивидендов вы хотите получать в 2027 году.</p>
     <div class="meta">
       <div><small>Дата</small><span>15 января 2027<br>пятница</span></div>
@@ -215,6 +222,12 @@ footer a{color:var(--gold2);text-decoration:none}
     <div class="faces"><img src="img/t4.jpg" alt=""><img src="img/t1.jpg" alt=""><img src="img/t6.jpg" alt=""><img src="img/t2.jpg" alt=""><img src="img/t8.jpg" alt=""><img src="img/t9.jpg" alt=""></div>
     <p><b>Ваши финдиректора и руководители проектов Finpark</b> будут в зале весь день. Подскажут, помогут посчитать и ответят на вопросы — лично вам.</p>
   </div>
+</div></section>
+
+<section class="blk"><div class="wrap">
+  <h2>Предварительно подтвердили участие</h2>
+  <div class="guests"><div class="g"><img src="img/g2.jpg" alt=""><div><b>Лаура Вайгорова</b><span>Основатель Smartest Prep, EdTech</span></div></div><div class="g"><img src="img/g3.jpg" alt=""><div><b>Айганым Рахманова</b><span>Основатель NovaStroy</span></div></div><div class="g"><img src="img/g4.jpg" alt=""><div><b>Марат Байтасов</b><span>Производство окон, Status in Trade</span></div></div><div class="g"><img src="img/g5.jpg" alt=""><div><b>Ерболат Иргизбаев</b><span>VoltageKZ — фасадное и уличное освещение</span></div></div><div class="g"><img src="img/g6.jpg" alt=""><div><b>Ерлан Муханжаров</b><span>Основатель Massive.kz — премиальные двери и мебель</span></div></div><div class="g"><img src="img/g7.jpg" alt=""><div><b>Арман Нигметжан</b><span>LANDJER, Akorda Realty</span></div></div><div class="g"><img src="img/g8.jpg" alt=""><div><b>Мирас Байжигит</b><span>Сооснователь IGPS.kz, Forbes 30 under 30</span></div></div><div class="g"><img src="img/g9.jpg" alt=""><div><b>Тельман Нагашбаев</b><span>NetworKING — ведущий нетворкинга</span></div></div><div class="g"><img src="img/g10.jpg" alt=""><div><b>Руслан Жарилкасимов</b><span>Стоматолог-гнатолог, PhD, RS Vami Dent</span></div></div></div>
+  <p class="gnote">…и другие предприниматели — клиенты Finpark.</p>
 </div></section>
 
 <section class="blk"><div class="wrap">
